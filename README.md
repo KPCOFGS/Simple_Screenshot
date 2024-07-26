@@ -24,19 +24,19 @@ python screenshot_app.py
 2. Select Directory: Click on the "Select Directory to Save" button to choose where the screenshots will be saved. The path is automatically saved for future use.
 3. Set Delay: Enter the delay in seconds in the provided text box. This delay will be applied before the screenshot is captured.
 4. Start Capturing:
-* Click "Start Capturing" to take a full-screen screenshot after the specified delay.
-* Alternatively, click "Take Full Screenshot" to capture a full-screen image directly.
+  * Click "Start Capturing" to take a full-screen screenshot after the specified delay.
+  * Alternatively, click "Take Full Screenshot" to capture a full-screen image directly.
 5. Preview and Save:
-* After capturing, the preview window will open. You can select a region to crop if needed.
-* Click "Save" to save the screenshot to the selected directory or "Cancel" to discard it.
+  * After capturing, the preview window will open. You can select a region to crop if needed.
+  * Click "Save" to save the screenshot to the selected directory or "Cancel" to discard it.
 6. Fullscreen Mode:
-* In the preview window, you can view the screenshot in fullscreen mode.
-* Press Escape to exit fullscreen mode.
+  * In the preview window, you can view the screenshot in fullscreen mode.
+  * Press Escape to exit fullscreen mode.
 ## Configuration
-* Settings such as the save directory and delay are stored in settings.json and will be loaded on the next start.
+  * Settings such as the save directory and delay are stored in settings.json and will be loaded on the next start.
 ## Note:
-* Invalid Input Error: Ensure that the delay is an integer and not negative.
-* Save Directory: If the save directory is invalid, the app will use the current working directory.
+  * Invalid Input Error: Ensure that the delay is an integer and not negative.
+  * Save Directory: If the save directory is invalid, the app will use the current working directory.
 ## License
 This project is licensed under the Unlicense - see the [LICENSE](LICENSE) file for details.
 
