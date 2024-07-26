@@ -1,7 +1,6 @@
-import pyautogui
 import tkinter as tk
 from tkinter import Canvas, Button, filedialog, messagebox
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, ImageGrab
 import os
 import time
 import json
@@ -78,7 +77,7 @@ class ScreenshotApp:
         time.sleep(self.delay)
         time.sleep(0.1)
         # Take full-screen screenshot
-        self.screenshot = pyautogui.screenshot()
+        self.screenshot = ImageGrab.grab()
 
         # Show the screenshot in fullscreen mode
         self.show_fullscreen_image()
@@ -108,7 +107,7 @@ class ScreenshotApp:
         time.sleep(0.1)
 
         # Take full-screen screenshot
-        self.screenshot = pyautogui.screenshot()
+        self.screenshot = ImageGrab.grab()
 
         # Show the main window again
         self.root.deiconify()
