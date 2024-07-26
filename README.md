@@ -1,6 +1,6 @@
 # Simple_Screenshot
 
-This is a Python application that allows users to take screenshots with a configurable delay and preview them before saving. The app uses `tkinter` for the graphical user interface and `pyautogui` for capturing screenshots. Users can select a region to capture, apply a delay, and choose a save directory.
+This is a Python application that allows users to take screenshots with a configurable delay and preview them before saving. The app uses `tkinter` for the graphical user interface and `Pillow` for capturing screenshots. Users can select a region to capture, apply a delay, and choose a save directory.
 
 ## Features
 
