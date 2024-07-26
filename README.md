@@ -26,10 +26,10 @@ python screenshot_app.py
 4. Start Capturing:
    * Click "Start Capturing" to take a full-screen screenshot after the specified delay.
    * Alternatively, click "Take Full Screenshot" to capture a full-screen image directly.
-6. Preview and Save:
-  * After capturing, the preview window will open. You can select a region to crop if needed.
-  * Click "Save" to save the screenshot to the selected directory or "Cancel" to discard it.
-7. Fullscreen Mode:
+5. Preview and Save:
+   * After capturing, the preview window will open. You can select a region to crop if needed.
+   * Click "Save" to save the screenshot to the selected directory or "Cancel" to discard it.
+6. Fullscreen Mode:
    * In the preview window, you can view the screenshot in fullscreen mode.
    * Press Escape to exit fullscreen mode.
 ## Configuration
