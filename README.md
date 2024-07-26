@@ -33,7 +33,7 @@ python screenshot_app.py
    * In the preview window, you can view the screenshot in fullscreen mode.
    * Press Escape to exit fullscreen mode.
 ## Configuration
-* Settings such as the save directory and delay are stored in settings.json and will be loaded on the next start.
+* Settings such as the save directory and delay are stored in `settings.json` and will be loaded on the next start.
 ## Note:
 * Invalid Input Error: Ensure that the delay is an integer and not negative.
 * Save Directory: If the save directory is invalid, the app will use the current working directory.
